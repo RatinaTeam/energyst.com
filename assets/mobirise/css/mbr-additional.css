@@ -2373,50 +2373,6 @@ section.lazy-placeholder:after {
 .cid-sN7ycQdeVg H3 {
   text-align: center;
 }
-.cid-sN7CD2LgI9 {
-  padding-top: 90px;
-  padding-bottom: 45px;
-  background-color: #ffffff;
-}
-.cid-sN7CD2LgI9 h4 {
-  width: 85%;
-  font-weight: 500;
-  margin-bottom: 0;
-}
-.cid-sN7CD2LgI9 p {
-  color: #767676;
-}
-.cid-sN7CD2LgI9 .card-wrapper {
-  border-top: 1px solid #efefef;
-  position: relative;
-  justify-content: unset;
-}
-.cid-sN7CD2LgI9 .card-wrapper .card-box {
-  padding: 1rem 0;
-  width: 100%;
-}
-.cid-sN7CD2LgI9 .card-wrapper .card-box .top-line {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.cid-sN7CD2LgI9 .card-wrapper .card-box .bottom-line {
-  width: 85%;
-}
-@media (max-width: 767px) {
-  .cid-sN7CD2LgI9 .card-wrapper .card-box .bottom-line {
-    width: 100%;
-  }
-  .cid-sN7CD2LgI9 .card-wrapper .card-box .bottom-line p {
-    margin: 1rem 0 0 0;
-  }
-}
-.cid-sN7CD2LgI9 H2 {
-  text-align: left;
-}
-.cid-sN7CD2LgI9 .card-title {
-  text-align: left;
-}
 .cid-rEvfA6F6XI {
   padding-top: 60px;
   padding-bottom: 0px;
