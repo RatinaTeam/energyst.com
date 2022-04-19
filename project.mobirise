@@ -8,9 +8,9 @@
         "primaryColor": "#265499",
         "secondaryColor": "#265499",
         "successColor": "#F7ED4A",
-        "infoColor": "#82786E",
+        "infoColor": "#13286e",
         "warningColor": "#879A9F",
-        "dangerColor": "#B1A374",
+        "dangerColor": "#4a84d8",
         "mainFont": "DM Sans",
         "display1Font": "Zen Old Mincho",
         "display1Size": "3.4",
@@ -33,7 +33,8 @@
       "additionalSetColors": [
         "#4a84d8",
         "#13286e",
-        "#265499"
+        "#265499",
+        "#101010"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -82,7 +83,7 @@
     "siteUrl": "https://emaar66.com.sa/en/",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 47,
+    "uniqCompNum": 68,
     "versionPublish": "5.4.1",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
@@ -460,7 +461,7 @@
           },
           "_name": "menu02",
           "_sourceTheme": "photom4",
-          "_customHTML": "<section class=\"menu menu02 photom4_menu02\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.9\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#265499\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://mobiri.se\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-1.svg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-secondary text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">EMAAR 66</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"index.html#content04-18\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT US</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"index.html#social02-n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">OUR VISION</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"index.html#header03-v\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">OUR MISSION</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"index.html#accordions01-9\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">PRODUCTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"index.html#form02-10\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT US</a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                <a href=\"index.html\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-whatsapp socicon\" style=\"color: rgb(38, 84, 153); fill: rgb(38, 84, 153);\"></span>\n                </a>\n                <a href=\"index.html\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(38, 84, 153); fill: rgb(38, 84, 153);\"></span>\n                </a>\n                <a href=\"index.html\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\" style=\"color: rgb(38, 84, 153); fill: rgb(38, 84, 153);\"></span>\n                </a>\n                <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                </a>\n                <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                </a>\n                <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">EN</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu menu02 photom4_menu02\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.9\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#265499\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://mobiri.se\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-1.svg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-secondary text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">EMAAR 66</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"index.html#content04-18\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT US</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"index.html#social02-n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">OUR VISION</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"index.html#header03-v\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">OUR MISSION</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"index.html#article1-1v\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">PRODUCTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"index.html#form02-10\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT US</a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                <a href=\"index.html\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-whatsapp socicon\" style=\"color: rgb(38, 84, 153); fill: rgb(38, 84, 153);\"></span>\n                </a>\n                <a href=\"index.html\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(38, 84, 153); fill: rgb(38, 84, 153);\"></span>\n                </a>\n                <a href=\"index.html\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\" style=\"color: rgb(38, 84, 153); fill: rgb(38, 84, 153);\"></span>\n                </a>\n                <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                </a>\n                <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                </a>\n                <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">EN</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "sLqI8V6NVU",
           "_anchor": "menu02-7",
           "_PHPplaceholders": [],
@@ -1157,137 +1158,384 @@
           "_params": {}
         },
         {
-          "alias": false,
+          "_name": "article1",
+          "_sourceTheme": "snackm5",
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "position": "relative",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".accordion .card": {
-              "overflow": "visible"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".mbr-iconfont": {
-              "font-family": "'Moririse2' !important",
-              "font-size": "1rem!important"
+            ".section-head": {
+              "margin-bottom": "2.3rem"
             },
-            ".mbri-arrow-down": {
-              "&:before": {
-                "content": "\"\\e960\""
+            ".row": {
+              "@media (max-width: 991px)": {
+                "text-align": "center"
               }
             },
-            ".panel-text": {
-              "padding": "1rem",
-              "text-align": "left"
-            },
-            ".card": {
-              "border-radius": "0px",
-              "margin-bottom": "-1px",
-              ".card-header": {
-                "border-radius": "0px",
-                "border": "1px solid lightgray",
-                "padding": "0",
-                "background": "transparent",
-                "margin-bottom": "0px",
-                "a.panel-title": {
-                  "margin-bottom": "0",
-                  "font-style": "normal",
-                  "font-weight": "500",
-                  "display": "block",
-                  "text-decoration": "none !important",
-                  "margin-top": "0px",
-                  "line-height": "normal",
-                  "&:focus": {
-                    "text-decoration": "none !important"
-                  },
-                  "h4": {
-                    "padding": "1.2rem",
-                    "margin-bottom": "-1px",
-                    "font-weight": "600",
-                    ".sign": {
-                      "padding-right": "1rem"
-                    }
-                  }
-                }
-              },
-              ".panel-body": {
-                "color": "#767676"
-              }
-            },
-            ".panel-collapse": {
-              "border": "1px solid lightgray",
-              "margin-top": "-1px"
-            },
-            "H4": {
-              "color": "#767676",
-              "text-align": "left"
+            ".mbr-text": {
+              "text-align": "center"
             }
           },
-          "_name": "accordions01",
-          "_customHTML": "<section class=\"accordion1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <select title=\"Accordions Count\" name=\"bootstrapAccordion\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-12\">\n                <div class=\"section-head text-center space30\">\n                    <h2 class=\"mbr-section-title pb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Products</h2>\n                </div>\n                <div class=\"clearfix\"></div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed text-black\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">Acid Neutralizer NEONEUTRAL-10</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse \" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\"><b>GENERAL INFORMATION</b><br>NEONEUTRAL-10 is a state-of-the-art Acid Neutralizer, specially developed to operate efficiently with HCl applications. Its unique formulation allows a slow reaction of the product with HCl, preventing excessive heat from the reaction while neutralizes completed the acid. Unlike other Acid Neutralizers, the performance of NEONEUTRAL-10 is not affected or reduced due to the presence of CO2 in the system. This feature is especially important in the treatment of HCl in systems where CO2 is present, either as naturally occurring gas in the reservoir or in fields where CO2 is injected as a form of advanced hydrocarbon recovery. Because NEONEUTRAL-10 combines the properties of amines and alcohols, it exhibits the unique capability of undergoing reactions common to both groups. As an amine, NEONEUTRAL-10 is mildly alkaline and reacts with acids to form salts or soaps. As an alcohol, NEONEUTRAL-10 is hygroscopic and can be esterified.<br><b><br></b><br><b>PHYSICAL-CHEMICAL PROPERTIES</b><br>Aspect ………………………………… Light Yellow Liquid<br>Specific gravity (25°C) ……………… 1.125<br>pH ……………………………………...10.0 – 10.5 Water<br>Solubility ………………………. Soluble<br><br>NEONEUTRAL-10 is especially recommended in oil and gas production<br>systems where the presence of HCl needs to be neutralized.<br><br><b>SAFETY IN USE, STORAGE AND HANDLING</b><br>NEONEUTRAL-10 is an alkaline product. It should be handled using the appropriate PPE: rubber gloves, apron, safety goggles and rubber boots. Avoid contact with eyes, skin and clothing as well as inhalation of vapors. In case of contact, immediately flush with running water for at least 15 minutes. If contact is with the eyes, rinse for at least 15 minutes with plenty of running water and consult a doctor.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-7\">TDS Carioca NeoSQ-1531</h4>\n                            </a>\n\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\"><b>DESCRIPTION:</b><br>NEOSQ-1531 is a 59% active aqueous solution of an amine resin condensate, designed as a hydrogen sulphide scavenger for aqueous medium. NEOSQ-1531 can also be used as an additive in water-soluble corrosion inhibitors and surfactants to increase control over microorganisms. APLLICATION Hydrogen sulfide is a poisonous gas that is deadly in high concentrations and poses serious health threats in moderate concentrations. Operational problems caused by H2S can include severe corrosion and scale, and blockages in the injection of wells with ferrous sulphides. NEOSQ-1531 can be injected continuously into water lines, water tanks, pit holdings and steam overheads. For ease of application, it can be diluted with methanol or water. AGENA of SQ-<br><br><b>USAGE:</b><br>The amount of NEOSQ-1531 required depends on the level of H2S in the system and the desired degree of reduction. In aqueous systems, the NEOSQ-1531 scavenging rate is 2 to 20 ppm per ppm H2S. For treating H2S in gas or crude oil, NEOSQ-1531 can be used at concentrations of 1 to 10 ppm per ppm H2S. PHYSICAL PROPERTIES Appearance: Clear, slightly cloudy liquid Actives content (%): 59 Specific gravity: 1.07-1.11 Density @ 25oC (g/cm3): 1.066-1.107 pH (straight): 9.0-10.5 Solubility, 10% in Soft water: Soluble Xylene: Dispersible.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                            <a role=\"button\" class=\"collapsed text-black panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-7\">Viscosity Reducer Neovisc VR</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\"></p><p><b>GENERAL INFORMATION</b><br>Neovisc VR is a 100% water-soluble mixture of organic compounds and enzymes that<br>forms a very effective viscosity reducing and anti-slugging solvent for both paraffin-<br>based and asphalthenes-based Crude Oils. It cuts long chain hydrocarbons at specific<br>receptor sights resulting in a permanent reduction in thickness of treated<br>hydrocarbons, without the use of heat or crystal modifiers. It also does not change the<br>chemical characteristics of the crude oil produced. VR-3060 also exhibits waterwetting<br>properties. It converts an oil-wet surface into a water-wet surface preventing the<br>paraffin or asphalts from re-depositing on the surface.<br>BENEFITS<br>• Neovisc VR offers excellent performance at a competitive cost as an<br>environment friendly alternative to oil based products. It is nontoxic,<br>nonhazardous, non-flammable and 100% biodegradable, thereby not requiring<br>special handling.<br>• The product can be used in a variety of applications.<br>APPLICATION<br>• Anti-slugging agent;<br>• Viscosity reducer for Crude Oils;<br>• Heavy Oil Exploration and Flow Assurance at all phases (i.e. perforation/stimulation, lifting, well testing and tubing cleanout);<br>• Component of OBM Filter Cake Removal Treatments;<br>• Crude Oil Conditioning for Enhanced Flaring;<br>• Component of Pre-flush prior to stimulation jobs;<br></p><p></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingFour\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-7\">TDS Carioca Neogreen EP</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFour\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\"><b>GENERAL INFORMATION</b><br>NEOGREEN EP is an ester-based lubricant derived from vegetable fats and oils. Totally biodegradable, making its use safer for the personnel. Torque reducer and extreme pressure lubricant for water based drilling fluids. It promotes additional stability at the well walls, assists in inhibition and improves filtrate control to improve fluid and API fluid and HTHP fluid loss behaviors. Soluble in water, having a greater dispersion and high efficiency as a lubricant, reducing friction factors during drilling. Compatible with modern products used in this type of fluid. It can be used in any pH range.<br>BENEFITS Reduction of friction coefficient, reduces the accumulation of clay in Bit - Balling bit, and it is not affected by contaminants. Biodegradable. Does not interfere with rheology and yields up to 20% greater yield.<br><br><b>APPLICATION</b><br> The concentration used will depend on the severity of the operation and the type of training. A range of 0.5 to 3.0% on the volume of the fluid is indicated. Added directly to the mud tanks or through the funnel. <br><b><br></b><br><b>AVAILABILITY</b><br> Neogreen EP is available in drums, bulk or in IBC containers specified by the user. STORAGE Store in ventilated area, humidity free, or in appropriate tanks. For further information on product safety, please refer to the MSDS (Material Safety Data Sheet).<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingFive\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse9\" aria-expanded=\"false\" aria-controls=\"collapse9\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-7\">TDS - NEOSULF EF</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse9\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFive\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\"><b>GENERAL INFORMATION</b><br> NEOSULF EF is a state-of-the-art hydrogen sulphide scavenger specially developed to operate efficiently in both gaseous and liquid media. Its unique formulation allows the reaction of the product with H2S to occur immediately, resulting in an inert substance, the atomic sulfur. In addition, the exclusive NEOSULF EF formulation has been developed with environmental concerns: it is a non-environmentally aggressive product when used at the indicated concentrations, it has no extreme pH (unlike other H2S scavengers), and the by-product of its reaction with H2S is considered nontoxic. Unlike other H2S scavengers, the performance of NEOSULF EF is not affected or reduced due to the presence of CO2 in the system. This feature is especially important in the treatment of hydrogen sulphide in systems where CO2 is present, either as naturally occurring gas in the reservoir or in fields where CO2 is injected as a form of advanced hydrocarbon recovery.<br><br><b>PHYSICAL-CHEMICAL PROPERTIES</b><br>Aspect ………………………………… Dark Red Liquid<br>Specific gravity (25°C) ……………… 1 – 1.05<br>pH ……………………………………... 8 – 10<br>Water Solubility ………………………. Soluble<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                            <a role=\"button\" class=\"collapsed text-black panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse10\" aria-expanded=\"false\" aria-controls=\"collapse10\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-7\">TECHNICAL INFORMATION ON H2S SCAVENGERS</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse10\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Neosulf EF is a cutting-edge technology H2S Scavenger, specially designed to deliver top performance in sour liquid systems. It's unique formulation was developed to make the product safe and environmentally friendly product. It reacts immediately with H2S and produces a non-toxic by-product. Its reaction with H2S is irreversible. Neosulf EF is recommended for use in high BSW oil production systems as well as in drilling and completion fluids. Neocat SQH The most recent outcome of research laboratories, this product delivers the same top quality features and benefits of Neosulf EF, but being oil- soluble, Neocat SQH is specially recommended for use in gas plants and pipelines where H2S is present. Product Behaviour Both products acts by oxidizing, and despite being made of different raw material, they have similar behavior:<br>- they oxidize H2S to atomic Sulphur, considered non dangerous by environment<br>legislation;<br>- Besides H2S, they also react with S= (sulphide) and HS- (Hydro-sulphide). Very<br>few scavengers in the market have these same characteristic, i.e., those who<br>reacts with H2S don't react with S= or HS- .....;<br>- The reaction is irreversible. Also, it's important to note that most<br>scavengers deliver by-products which can revert to H2S again. With Neosulf EF and<br>Neocat SQH is impossible, in field conditions, to occur the reverse reaction,<br>generating H2S again.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse8\" aria-expanded=\"false\" aria-controls=\"collapse8\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-7\">TDS Carioca Neocat SQH</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse8\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\"><b>GENERAL INFORMATION</b><br>Neocat SQH is an oil soluble hydrogen sulfide scavenger. The product was specifically designed to deliver extraordinary performance in low BSW oil production systems and in gas treating plants. Its innovative formula allows immediate reaction of the product with H2S. BENEFITS Unlike some other H2S scavengers in the market, the performance of Neocat SQH is not affected or reduced by the presence of CO2 in the system. This is particularly important in the treatment of hydrogen sulfide in systems where the CO2 is present, either associated with produced natural gas, or in fields where the CO2 is injected as a form of advanced oil recovery.<br><br><b>APPLICATION</b><br>Neocat SQH is recommended as an H2S scavenger for crude oil and gas systems. Its innovative formulation makes Neocat SQH a very effective product, and smaller amounts of the product are necessary to completely remove the H2S in the system. For dosage and injection rates, please call our Technical Department. <br><br><b>AVAILABILITY</b><br> Neocat SQH is available in drums, bulk or in IBC containers specified by the user. STORAGE Store in ventilated area, humidity free, or in appropriate tanks. For further information on product safety, please refer to the MSDS (Material Safety Data Sheet).<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse21\" aria-expanded=\"false\" aria-controls=\"collapse21\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-7\">Clean Oil Solutions</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse21\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">To Whom It May Concern,<br> (COS) is a company that is passionate about cleaning the environment and enhancing the quality of natural materials across the globe. The company has been experimenting, developing and testing different organic compounds since 1983 under the financial support of Chit Chat Communications Pty Ltd.<br><br>Over the years, the company has developed an organic natural solvent called COS64.The solvent comprises of 64 natural organic compounds. It washes and separates oil from contaminated sand and, providing there is no cross contamination of any BTX’s (Benzene, Toluene and Xylene), will produce a sand that only contains 0.05% of hydrocarbons. With additional efforts, the sand can be purified to only contain 0.005% hydrocarbons. During the process of washing the sand, the separated oil is also reclaimed to its natural state and is extracted as crude oil making the separated oil a recoverable asset. Thus, our process using COS64 will deliver clean sand and reclaimed oil with paramount benefits to our environment. <br><br>In addition to cleaning the sand, our organic solvent cleans the sludge and oil contamination in sand or in water without adding any unfriendly chemicals or creating cross-contamination. In the process of washing and separating the hydrocarbon pollutants, the missing carbon elements in the hydrocarbon chains that has degraded is reinstated by our organic solvent. Our process of cleaning and reclaiming also does not require any additional bi-products, and therefore will save dumping costs. <br><br>COS64 is a cost-effective solution treating paraffin wax and asphaltene build-ups. The product’s application and use extend to treating and recovering oil from sludge pits, storage tanks and cargo tanks without leaving or adding any further chemicals residue or cross-contamination. Our COS64 solvent lowers the viscosity level of the solidified oil and is extremely effective in treating heavy crude and high paraffin oils. <br><br>(COS) has had previous experience cleaning contaminated soil from upgraded petrol stations and small oil sepals on building sites throughout NSW Australia. After realising the real magnitude in the value of our organic solvent, we decided to direct our efforts towards solving larger oil contamination issues in the Middle East. <br><br>After thoroughly studying the markets, products and services of many large companies worldwide, we believe that no other product exists that is as efficient, effective and clean as our solvent. Therefore, on the 8th of November 2019, we registered for the purpose of expansion. <br><br>In 2021, we undertook a test case from BAPCO to break down a sludge sample from BAPCO’S oil storage tank 134 which was heavily contaminated with aromatics, water, sand and asphalt. After dosing and going through our treatment process, we successfully sent back the extracted oil completely separated from foreign contaminates. The sample was independently tested by BAPCO with a result of Spec Oil – not sludge. The oil<br></p>\n                            </div>\n                        </div>\n                    </div>\n<div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse22\" aria-expanded=\"false\" aria-controls=\"collapse22\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-7\">SGN Treatment Case History</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse22\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">- Evaluate the filter cake removal efficiency of current treatment process<br>- Evaluate the use organic acid for HSE reasons<br>- Develop a solution for maximum productivity<br></p>\n                            </div>\n                        </div>\n                    </div>\n<div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse23\" aria-expanded=\"false\" aria-controls=\"collapse23\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-7\">H2S Treatment Case History - Saudi Aramco&nbsp;</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse23\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Multiple operations on 14 man-made Manifa islands<br>  <br>- High NPT due to rig shut down from H2S discharge<br>- Cleaning up multiple wells with H2S up to 21%<br>- No discharge of H2S &gt; 10ppm to environment<br>- Result<br>- 103 wells cleaned up YTD<br>- No case of H2S discharge to the environment<br>- Maximum oil production rate: 8958 bopd; 8ppm H2S<br>- Savings of ~ $2250K in rig NPT<br>- Project delivered within time frame<br></p>\n                            </div>\n                        </div>\n                    </div>\n<div class=\"card\" mbr-if=\"bootstrapAccordion > 5\" style=\"display:none;\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingSix\" style=\"display:none;\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse24\" aria-expanded=\"false\" aria-controls=\"collapse24\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-7\">🔧 Maintenance Works</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse24\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\" data-parent=\"#accordion\" style=\"display:none;\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">We provide a professional building maintenance services for various public and private facilities, through scheduled coordination, which gives our customers full service with the required quality around the clock 24/7 through direct communication or contracts by a distinguished manpower of engineers and technicians to reach services to the highest quality standards giving our customer total service and peace of mind.<br></p>\n                            </div>\n                        </div>\n                    </div>\n\n\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "accordions01-9",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article1\" group=\"Article\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"section-head\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                        <b>CONSENT ON PERSONAL<br>DATA PROCESSING</b>\n                    </h3>\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                        SUBTITLE\n                    </h4>\n                </div>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-1\">PRODUCTS</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "article1-1v",
           "_isUserblock": true,
-          "_sourceTheme": "photom4",
-          "_cid": "rEvfCNgHKY",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_cid": "t3tN22v69s",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
         },
         {
-          "_name": "content17",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content17\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Amount\" name=\"cardAmount\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\">3</option>\n             <option value=\"4\">4</option>\n             <option value=\"5\">5</option>\n             <option value=\"6\" selected>6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../../app/themes/mobirise5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        \n            <div class=\"row justify-content-center\">\n                <div class=\"col-12 col-md-{{textWidth}}\">\n                    <div class=\"section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                        <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                            <b>COS64 PRODUCTS</b></h3>\n                        <h4 class=\"mbr-section-subtitle mt-2 mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\"><p>&nbsp;&nbsp;&nbsp;&nbsp;</p><br><p>Over the years, the company has developed an organic natural solvent called COS64. The solvent comprises of 64 natural organic compounds. It washes and separates oil From contaminated sand and, providing there is no cross contamination of any BTX’s</p><div>(Benzene, Toluene and Xylene), will produce a sand that only contains 0.05% of</div><div>Hydrocarbons. With additional efforts, the sand can be purified to only contain 0.005%</div><div>Hydrocarbons. During the process of washing the sand, the separated oil is also\nReclaimed to its natural state and is extracted as crude oil making the separated oil a&nbsp;<span style=\"font-size: 0.9rem;\">Recoverable asset. Thus, our process using COS64 will deliver clean sand and reclaimed</span></div><div>Oil with paramount benefits to our environment.</div><div>In addition to cleaning the sand, our organic solvent cleans the sludge and oil</div><div>Contamination in sand or in water without adding any unfriendly chemicals or creating</div><div>Cross-contamination. In the process of washing and separating the hydrocarbon</div><div>Pollutants, the missing carbon elements in the hydrocarbon chains that has degraded is\nReinstated by our organic solvent. Our process of cleaning and reclaiming also does not</div><div>Require any additional bi-products, and therefore will save dumping costs.</div><p></p></h4>\n                    </div>\n                    \n                    <div id=\"bootstrap-toggle\" class=\"toggle-panel accordionStyles tab-content\">\n                        <div class=\"card mb-3\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Extreme Pressure Torque Reducer and Lubricant: Neogeene EP</b></h6>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Neogreen EP is an ester-based lubricant derived from vegetable fats and oils. Entirely biodegradable, making its use safer for the personnel Can be used at any pH.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Oil Based H2S Scavenger: Neocat SQH</b></h6>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                                </a>\n\n                            </div>\n                            <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">The product was specifically designed to deliver extraordinary\nperformance in low BSW oil production systems and in gas treating plants (1ppm of Neocat SQH to 3ppm of H2S).<br>Its innovative formula allows immediate reaction of the product with H2S. Unlike some other H2S scavengers in the market, the performance of Neocat SQH is not affected or reduced by the presence of CO2 in the system.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Water Based H2S Scavenger (non Triazine based): Neosulf EF</b></h6>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">This exclusive formulation has been developed with environmental concerns: it has no extreme pH (unlike other H2S scavengers), and the reaction with H2S is fast and irreversible.<br>The by-product of its reaction with H2S is an inert substance: atomic Sulphur, which is considered non-toxic.<br></p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Rig Wash Fluid: DEG-2150</b></h6>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">DEG-2150 is a mild liquid alkaline cleaner and degreaser, providing industrial strength detergency designed to provide the best and safe surface cleaning. Entirely biodegradable.<br>Free of any harsh alkali, it effectively mobilizes debris, dirt, and grease or oils from all hard surfaces.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                   <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Micro Emulsion Restoration Fluid: MRF-1101</b></h6>\n                                        <span class=\"mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                       MRF-1101 is a restoration fluid for producing wells that exhibit\nformation damage. It has micro emulsion properties, with low interfacial tension between liquids, high capacity of solubilization of deposits with a tendency to change wettability.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Viscosity Reducer and Emulsion Breaker: VR-3060</b></h6>\n                                    <span class=\"mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">This product is a 100% water-soluble mixture of organic compounds<br>and enzymes that forms a very effective viscosity reducing and antislugging solvent for both paraffin based and asphalthenes based Crude Oils.<br>It is nontoxic, nonhazardous, non-flammable and 100% biodegradable, thereby not requiring special handling.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse7\" aria-expanded=\"false\" aria-controls=\"collapse7\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>pH CONTROLLER / NEUTRALIZING FOR ACIDS</b></h6>\n                                    <span class=\"mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse7\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">aliphatic heterocyclic polyamine developed as a pH corrosion controller and inhibitor. Can be used with sea water<br>and fresh water. <br><b>APPLICATION</b><br> \nDissolved acid gases and biological deposits can cause severe corrosion in oil well water management systems.<br>Corrosion by-products such as ferric sulfide, iron oxides and biological mass can cause clogs in well injection tubes.<br>Over time, corrosion in water systems will cause costly leaks and operational failures.<br>Effective in seawater and light brines, including CaCl 2 and CaBr2 brines. For ease of application, it can be diluted in<br>Low molecular weight alcohols or low hardness water.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n</section>",
+          "_name": "features1",
+          "_sourceTheme": "studiom4",
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".card .card-header": {
-              "background-color": "transparent",
-              "margin-bottom": "0"
+            ".mbr-text": {
+              "color": "#767676",
+              "font-size": "1.5rem"
             },
-            ".panel-title": {
+            ".icon-1": {
+              "color": "@IconsColor1",
+              "font-size": "3.5rem",
+              "display": "none"
+            },
+            ".icon-arrow": {
+              "color": "@IconsColor2",
+              "font-size": "1.8rem !important"
+            },
+            ".link": {
+              "margin": "0",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            "@media (min-width: 767px)": {
+              ".card": {
+                "display": "flex",
+                "flex-direction": "row",
+                "align-items": "center"
+              },
+              ".row": {
+                "margin": "0"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".link a": {
+                "&:after": {
+                  "right": "0",
+                  "margin": "auto"
+                }
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            "@media (max-width: 992px)": {
+              ".card": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".text-link": {
+              "font-weight": "800 !important"
+            },
+            ".card-inner": {
+              "width": "100%",
               "display": "flex",
               "align-items": "center",
-              "justify-content": "space-between"
+              "justify-content": "space-between",
+              "background-color": "@cardBg",
+              "padding": "2rem 1.8rem",
+              "position": "relative",
+              "overflow": "hidden"
             },
-            ".mbr-iconfont": {
-              "padding-left": "1rem",
-              "font-family": "'Moririse2' !important",
-              "font-size": "1.4rem !important",
-              "color": "@primaryColor"
+            ".card-img": {
+              "opacity": "0",
+              "left": "-40px",
+              "top": "20%",
+              "position": "absolute",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
             },
-            ".panel-body, .card-header": {
-              "padding": "1rem 0"
+            ".card-icon": {
+              "display": "flex",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
             },
-            ".panel-title-edit": {
-              "color": "#000000"
+            ".card:hover": {
+              ".card-inner": {
+                "background-color": "@dangerColor"
+              },
+              ".icon-arrow": {
+                "color": "#fff"
+              },
+              ".text-link": {
+                "color": "#fff !important"
+              },
+              ".card-img": {
+                "opacity": "1",
+                "left": "-10px"
+              },
+              ".link": {
+                "transform": "translateX(42px)"
+              },
+              ".card-icon": {
+                "transform": "translateX(10px)"
+              }
             },
-            "DIV": {
-              "text-align": "left"
-            },
-            "H3": {
-              "text-align": "center"
-            },
-            "H4": {
-              "color": "#767676"
+            "h5": {
+              "color": "#101010",
+              "font-weight": "500",
+              "font-size": "1.5rem"
             }
           },
-          "_cid": "t3siGMnMle",
-          "_anchor": "content17-1a",
-          "_PHPplaceholders": [],
+          "_customHTML": "<section class=\"features1 studiom4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Links\" name=\"showLink\" checked>\n\t\t<header>Additional</header>\n\t\t<input type=\"color\" title=\"Icons Color 1\" name=\"IconsColor1\" value=\"#ffffff\" selected>\n\t\t<input type=\"color\" title=\"Icons Color 2\" name=\"IconsColor2\" value=\"#265499\" selected>\n\t\t<input type=\"color\" title=\"Card Background\" name=\"cardBg\" value=\"#f3f3f3\" selected>\n\t\t<select title=\"Cards\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/man-3.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-file mobi-mbri icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">COS64</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"assets/files/-21.pdf\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-desktop mobi-mbri icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">Carioca Neocat SQH</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"assets/files/2-TDSCariocaNeocatSQH_V.1.0.pdf\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-idea mobi-mbri icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">NEOSULF EF</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"assets/files/4-TDS-NEOSULFEF.pdf\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img pb-3\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbri-desktop mbr-iconfont icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">الأعمال الكهربائية</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "features1-1r",
+          "_isUserblock": true,
+          "_cid": "t3tvcFPCrg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "features1",
+          "_sourceTheme": "studiom4",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#767676",
+              "font-size": "1.5rem"
+            },
+            ".icon-1": {
+              "color": "@IconsColor1",
+              "font-size": "3.5rem",
+              "display": "none"
+            },
+            ".icon-arrow": {
+              "color": "@IconsColor2",
+              "font-size": "1.8rem !important"
+            },
+            ".link": {
+              "margin": "0",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            "@media (min-width: 767px)": {
+              ".card": {
+                "display": "flex",
+                "flex-direction": "row",
+                "align-items": "center"
+              },
+              ".row": {
+                "margin": "0"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".link a": {
+                "&:after": {
+                  "right": "0",
+                  "margin": "auto"
+                }
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            "@media (max-width: 992px)": {
+              ".card": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".text-link": {
+              "font-weight": "800 !important"
+            },
+            ".card-inner": {
+              "width": "100%",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between",
+              "background-color": "@cardBg",
+              "padding": "2rem 1.8rem",
+              "position": "relative",
+              "overflow": "hidden"
+            },
+            ".card-img": {
+              "opacity": "0",
+              "left": "-40px",
+              "top": "20%",
+              "position": "absolute",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            ".card-icon": {
+              "display": "flex",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            ".card:hover": {
+              ".card-inner": {
+                "background-color": "@dangerColor"
+              },
+              ".icon-arrow": {
+                "color": "#fff"
+              },
+              ".text-link": {
+                "color": "#fff !important"
+              },
+              ".card-img": {
+                "opacity": "1",
+                "left": "-10px"
+              },
+              ".link": {
+                "transform": "translateX(42px)"
+              },
+              ".card-icon": {
+                "transform": "translateX(10px)"
+              }
+            },
+            "h5": {
+              "color": "#101010",
+              "font-weight": "500",
+              "font-size": "1.5rem"
+            }
+          },
+          "_customHTML": "<section class=\"features1 studiom4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Links\" name=\"showLink\" checked>\n\t\t<header>Additional</header>\n\t\t<input type=\"color\" title=\"Icons Color 1\" name=\"IconsColor1\" value=\"#ffffff\" selected>\n\t\t<input type=\"color\" title=\"Icons Color 2\" name=\"IconsColor2\" value=\"#13286e\" selected>\n\t\t<input type=\"color\" title=\"Card Background\" name=\"cardBg\" value=\"#f3f3f3\" selected>\n\t\t<select title=\"Cards\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/man-3.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-file mobi-mbri icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLink\" data-app-selector=\".link\">TECHNICAL INFORMATION ON H2S SCAVENGERS</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"assets/files/5-TECHNICALINFORMATIONONH2SSCAVENGERS.pdf\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-desktop mobi-mbri icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">Clean Oil Solutions&nbsp;</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"assets/files/clean-oilSolutions.pdf\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-idea mobi-mbri icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">NEONEUTRAL-10</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"assets/files/TDS--NEONEUTRAL-10.pdf\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img pb-3\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbri-desktop mbr-iconfont icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">الأعمال الكهربائية</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "features1-1s",
+          "_isUserblock": true,
+          "_cid": "t3tvdFjHu5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "features1",
+          "_sourceTheme": "studiom4",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#767676",
+              "font-size": "1.5rem"
+            },
+            ".icon-1": {
+              "color": "@IconsColor1",
+              "font-size": "3.5rem",
+              "display": "none"
+            },
+            ".icon-arrow": {
+              "color": "@IconsColor2",
+              "font-size": "1.8rem !important"
+            },
+            ".link": {
+              "margin": "0",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            "@media (min-width: 767px)": {
+              ".card": {
+                "display": "flex",
+                "flex-direction": "row",
+                "align-items": "center"
+              },
+              ".row": {
+                "margin": "0"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".link a": {
+                "&:after": {
+                  "right": "0",
+                  "margin": "auto"
+                }
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            "@media (max-width: 992px)": {
+              ".card": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".text-link": {
+              "font-weight": "800 !important"
+            },
+            ".card-inner": {
+              "width": "100%",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between",
+              "background-color": "@cardBg",
+              "padding": "2rem 1.8rem",
+              "position": "relative",
+              "overflow": "hidden"
+            },
+            ".card-img": {
+              "opacity": "0",
+              "left": "-40px",
+              "top": "20%",
+              "position": "absolute",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            ".card-icon": {
+              "display": "flex",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            ".card:hover": {
+              ".card-inner": {
+                "background-color": "@dangerColor"
+              },
+              ".icon-arrow": {
+                "color": "#fff"
+              },
+              ".text-link": {
+                "color": "#fff !important"
+              },
+              ".card-img": {
+                "opacity": "1",
+                "left": "-10px"
+              },
+              ".link": {
+                "transform": "translateX(42px)"
+              },
+              ".card-icon": {
+                "transform": "translateX(10px)"
+              }
+            },
+            "h5": {
+              "color": "#101010",
+              "font-weight": "500",
+              "font-size": "1.5rem"
+            }
+          },
+          "_customHTML": "<section class=\"features1 studiom4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Links\" name=\"showLink\" checked>\n\t\t<header>Additional</header>\n\t\t<input type=\"color\" title=\"Icons Color 1\" name=\"IconsColor1\" value=\"#ffffff\" selected>\n\t\t<input type=\"color\" title=\"Icons Color 2\" name=\"IconsColor2\" value=\"#265499\" selected>\n\t\t<input type=\"color\" title=\"Card Background\" name=\"cardBg\" value=\"#f3f3f3\" selected>\n\t\t<select title=\"Cards\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/man-3.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-file mobi-mbri icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">Carioca NeoSQ-1531</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"assets/files/TDS-CariocaNeoSQ-1531_V.1.0.pdf\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-desktop mobi-mbri icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">Carioca Neovisc VR</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"assets/files/TDS-CariocaNeoviscVR_V.1.0.pdf\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-idea mobi-mbri icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">Carioca Neogreen EP</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"assets/files/2TDS-CariocaNeogreenEP_V.1.0.pdf\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-md-12\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img pb-3\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbri-desktop mbr-iconfont icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\">الأعمال الكهربائية</h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "features1-1t",
+          "_isUserblock": true,
+          "_cid": "t3tveqxNfg",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1439,7 +1687,7 @@
           },
           "_name": "form02",
           "_sourceTheme": "photom4",
-          "_customHTML": "<section class=\"form form02 photom4_form02\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<header>Content</header>\n\t\t<input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n\t\t<input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Adress\" name=\"showAdress\" checked>\n\n\n\t\t<header>Style</header>\n\t\t<input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\" checked>\n\t\t<input type=\"color\" name=\"iconColor\" title=\"Icons Color\" value=\"#767676\">\n\t\t<input type=\"checkbox\" name=\"disableElements\" title=\"Disable Control\">\n\t\t<input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#ffffff\" condition=\"customStyle\">\n\t\t<input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#ffffff\" condition=\"customStyle\">\n\t\t<input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#767676\" condition=\"customStyle\">\n\t\t<input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#767676\" condition=\"customStyle\">\n\t\t<input type=\"color\" name=\"formText\" title=\"Text\" value=\"#767676\" condition=\"customStyle\">\n\t\t<input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#767676\" condition=\"customStyle\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n\t<input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n            <div class=\"col-md-12 col-lg-6\">\n\t\t\t\t<div class=\"media-content\">\n\t\t\t\t\t<h1 class=\"mbr-section-title align-left mbr-bold mbr-black pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-5\">CALL US</h1>\n\t\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-bold align-left mbr-black mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-7\">WE’D LOVE TO HEAR WHAT YOU THINK</h3>\n\t\t\t\t\t<div class=\"mbr-section-text mbr-black pb-3 \">\n\t\t\t\t\t\t<p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Email: <a href=\"mailto:info@emaar66.com.sa\" class=\"text-primary\">info@</a>energyst.com<br>Tel Phone: <a href=\"tel:+966133308324\" class=\"text-primary\">+966-133308324</a><br><br><span class=\"mbr-section-title align-left mbr-bold mbr-black pb-3 mbr-fonts-style\">OUR ADDRESS</span><br>PO Box 32348 Khobar 31952, KSA<br><br><br></p>\n                        \n\n\t\t\t\t\t\t<p class=\"text2 pt-2 align-left mbr-fonts-style\" mbr-if=\"showAdress\" data-app-selector=\".text2, .mbr-section-btn\" mbr-theme-style=\"display-7\">\n                             \n\t\t\t\t\t</p></div>\n\t\t\t\t</div>\n\t\t\t</div>\n            <div mbr-form class=\"col-lg-6 col-md-12 mx-auto mbr-form\">\n<!--Formbuilder Form-->\n<form action=\"team@ratina.co\" name=\"طلب تواصل\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"form-row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thank you, we will contact you as soon as possible</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea form-row\">\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h5 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style\"><b>CONTACT US</b></h5>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-row\">\n<div class=\"col\">\n<input type=\"text\" name=\"nameFirst\" placeholder=\"First Name\" data-form-field=\"nameFirst\" class=\"form-control text-multiple\" value>\n</div>\n<div class=\"col\">\n<input type=\"text\" name=\"nameLast\" placeholder=\"Last Name\" data-form-field=\"nameLast\" class=\"form-control text-multiple\" value>\n</div>\n</div>\n</div>\n<div data-for=\"email\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"phone\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"tel\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"phone\" mbr-theme-style=\"display-7\" class=\"form-control\" pattern=\"*\" value>\n</div>\n<div data-for=\"subject\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"subject\" placeholder=\"Subject\" data-form-field=\"subject\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"message\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<textarea name=\"message\" placeholder=\"Message\" data-form-field=\"message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\" data-for=\"how\" hidden=\"hidden\">\n<input type=\"text\" name=\"how\" placeholder=\"How did your hear about us\" data-form-field=\"how\" mbr-theme-style=\"display-7\" class=\"form-control\" value hidden=\"hidden\">\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-auto m-auto\"><a type=\"submit\" class=\"btn btn-secondary\" data-app-placeholder=\"Type Text\">SUBMIT</a></div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n\n\n            \n            \n\t\t\t\n\t\t\t\n\n\n\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"form form02 photom4_form02\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<header>Content</header>\n\t\t<input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n\t\t<input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Adress\" name=\"showAdress\" checked>\n\n\n\t\t<header>Style</header>\n\t\t<input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\" checked>\n\t\t<input type=\"color\" name=\"iconColor\" title=\"Icons Color\" value=\"#767676\">\n\t\t<input type=\"checkbox\" name=\"disableElements\" title=\"Disable Control\">\n\t\t<input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#ffffff\" condition=\"customStyle\">\n\t\t<input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#ffffff\" condition=\"customStyle\">\n\t\t<input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#767676\" condition=\"customStyle\">\n\t\t<input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#767676\" condition=\"customStyle\">\n\t\t<input type=\"color\" name=\"formText\" title=\"Text\" value=\"#767676\" condition=\"customStyle\">\n\t\t<input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#767676\" condition=\"customStyle\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n\t<input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n            <div class=\"col-md-12 col-lg-6\">\n\t\t\t\t<div class=\"media-content\">\n\t\t\t\t\t<h1 class=\"mbr-section-title align-left mbr-bold mbr-black pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-5\">CALL US</h1>\n\t\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-bold align-left mbr-black mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-7\">WE’D LOVE TO HEAR WHAT YOU THINK</h3>\n\t\t\t\t\t<div class=\"mbr-section-text mbr-black pb-3 \">\n\t\t\t\t\t\t<p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Email: <a href=\"mailto:info@energyst.com\" class=\"text-primary\">info@energyst.com</a><br>Tel Phone: <a href=\"tel:+966133308324\" class=\"text-primary\">+966-133308324</a><br><br><span class=\"mbr-section-title align-left mbr-bold mbr-black pb-3 mbr-fonts-style\">OUR ADDRESS</span><br>PO Box 32348 Khobar 31952, KSA<br><br><br></p>\n                        \n\n\t\t\t\t\t\t<p class=\"text2 pt-2 align-left mbr-fonts-style\" mbr-if=\"showAdress\" data-app-selector=\".text2, .mbr-section-btn\" mbr-theme-style=\"display-7\">\n                             \n\t\t\t\t\t</p></div>\n\t\t\t\t</div>\n\t\t\t</div>\n            <div mbr-form class=\"col-lg-6 col-md-12 mx-auto mbr-form\">\n<!--Formbuilder Form-->\n<form action=\"info@enargyst.com\" name=\"طلب تواصل\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"form-row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thank you, we will contact you as soon as possible</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea form-row\">\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h5 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style\"><b>CONTACT US</b></h5>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-row\">\n<div class=\"col\">\n<input type=\"text\" name=\"nameFirst\" placeholder=\"First Name\" data-form-field=\"nameFirst\" class=\"form-control text-multiple\" value>\n</div>\n<div class=\"col\">\n<input type=\"text\" name=\"nameLast\" placeholder=\"Last Name\" data-form-field=\"nameLast\" class=\"form-control text-multiple\" value>\n</div>\n</div>\n</div>\n<div data-for=\"email\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"phone\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<input type=\"tel\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"phone\" mbr-theme-style=\"display-7\" class=\"form-control\" pattern=\"*\" value>\n</div>\n<div data-for=\"subject\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"subject\" placeholder=\"Subject\" data-form-field=\"subject\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"message\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<textarea name=\"message\" placeholder=\"Message\" data-form-field=\"message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\" data-for=\"how\" hidden=\"hidden\">\n<input type=\"text\" name=\"how\" placeholder=\"How did your hear about us\" data-form-field=\"how\" mbr-theme-style=\"display-7\" class=\"form-control\" value hidden=\"hidden\">\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-auto m-auto\"><a type=\"submit\" class=\"btn btn-secondary\" data-app-placeholder=\"Type Text\">SUBMIT</a></div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n\n\n            \n            \n\t\t\t\n\t\t\t\n\n\n\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "sNiVuFaI6Y",
           "_anchor": "form02-10",
           "_PHPplaceholders": [],
